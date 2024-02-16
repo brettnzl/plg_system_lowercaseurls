@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="system" method="upgrade">
+    <name>System - Lowercase URLs</name>
+    <author>Brett Ransley</author>
+    <website>revibedigital.co.nz</website>
+    <creationDate>February 2024</creationDate>
+    <license>GNU General Public License version 2 or later</license>
+    <version>1.0.0</version>
+    <description>This plugin redirects URLs with uppercase characters to their lowercase counterparts.</description>
+    <files>
+        <filename plugin="lowercaseurls">lowercaseurls.php</filename>
+    </files>
+</extension>
