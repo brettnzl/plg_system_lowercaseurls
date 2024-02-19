@@ -1,0 +1,19 @@
+<updates>
+    <update>
+        <name>System - URL Case Redirector for Joomla</name>
+        <description>This plugin redirects URLs with uppercase characters to their lowercase counterparts.</description>
+        <element>lowercaseurls</element>
+        <type>plugin</type>
+        <version>1.0.1</version> <!-- Update this with your latest version -->
+        <infourl title="URL Case Redirector for Joomla">https://revibedigital.co.nz/joomla-extensions/plugin-url-lowercase-redirector-for-joomla/</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/releases/download/v1.0.1/plg_system_lowercaseurls_v1.0.1.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag> <!-- Use 'testing' for test versions -->
+        </tags>
+        <maintainer>Brett Ransley</maintainer>
+        <maintainerurl>http://www.revibedigital.co.nz</maintainerurl>
+        <targetplatform name="joomla" version="3\.[0-9]|4\.[0-9]|5\.[0-9]"/>
+    </update>
+</updates>
