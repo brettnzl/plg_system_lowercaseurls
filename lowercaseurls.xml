@@ -10,4 +10,7 @@
     <files>
         <filename plugin="lowercaseurls">lowercaseurls.php</filename>
     </files>
+    <updateservers>
+        <server type="extension" name="System - URL Case Redirector Update Server">https://github.com/brettnzl/plg_system_lowercaseurls/blob/main/updateserver.xml?raw=true</server>
+    </updateservers>
 </extension>
