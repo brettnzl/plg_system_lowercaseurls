@@ -1,15 +1,18 @@
 <?php
 defined('_JEXEC') or die;
 
+// License: GNU General Public License version 2 or later; see LICENSE.txt
+
 use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Router\Route;
+use Joomla\CMS\Factory;
 use Joomla\CMS\Uri\Uri;
 
 class PlgSystemLowercaseurls extends CMSPlugin
 {
     public function onAfterInitialise()
     {
-        $app = JFactory::getApplication();
+        $app = Factory::getApplication();
         
         // Only proceed if we are on the site application
         if ($app->isClient('site')) {
